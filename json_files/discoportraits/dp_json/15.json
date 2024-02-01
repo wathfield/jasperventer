@@ -1,0 +1,87 @@
+[
+   {
+      "id": "15",
+      "image": "img/image_15.jpg",
+      "name": "disco portrait #15"
+   },
+   {
+      "trait_type": "Background",
+      "value": "tinsel 12%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "blue 9%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "upright posture 10%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "left foot on right thigh 9%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "hawaiian shirt 7%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "skirt and no leggins 6%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "long white 10%"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "sleepy 8%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "black 10%"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "sad 7%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "black 12%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "gum 19%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "space buns 8%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "police cap 7%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "big hoop 10%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "lip piercing 9%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "blue dragon 6%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "purse 9%"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "no chain 7%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "glitter snake 7%"
+   }
+]

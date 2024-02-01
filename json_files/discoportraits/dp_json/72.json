@@ -1,0 +1,87 @@
+[
+   {
+      "id": "72",
+      "image": "img/image_72.jpg",
+      "name": "disco portrait #72"
+   },
+   {
+      "trait_type": "Background",
+      "value": "bright blue 21%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "green 21%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "bending to the right 22%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "right foot on left tigh 18%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "black tee 10%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "black Pants 18%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "short black 19%"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "looking down 20%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "green 18%"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "bass face 18%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "blue 20%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "cigarette 25%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "shaved off 32%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "no hat 19%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "diamond stud 22%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "nostril piercing 18%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "tiger 13%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "flower bag 24"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "hawaiian flowers 14%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "water bottle 11%"
+   }
+]

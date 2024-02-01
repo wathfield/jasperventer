@@ -1,0 +1,87 @@
+[
+   {
+      "id": "27",
+      "image": "img/image_27.jpg",
+      "name": "disco portrait #27"
+   },
+   {
+      "trait_type": "Background",
+      "value": "black 15%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "red 13%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "bending forward 17%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "left over right 15%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "dress 10%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "leggins 10%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "long purple 12%"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "bored 15%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "pink 12%"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "creepy smile 13%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "red 16%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "joint 21%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "Mia pulp fiction 10%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "headband 9%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "black feather 11%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "nostril diamond stud 12%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "spider 7%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "shoulder bag 13%"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "silver wings 10%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "joint 9%"
+   }
+]

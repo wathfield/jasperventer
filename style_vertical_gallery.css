@@ -1,0 +1,186 @@
+
+html{
+    scroll-behavior: smooth;
+    /*width: 100vw;
+    height: 100vw;*/
+  }
+  
+  /*matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())*/
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    overflow-y: clip;
+    --p-font-size: 0.8rem;
+
+    }
+
+  
+  /* TEXT */
+  
+  h2 {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+  }
+  
+  h3 {
+    scroll-snap-align: start;
+    letter-spacing: -2px;
+    padding: 10px;
+    padding-bottom: 4vh;
+    display: block;
+    font-size: 2.5rem;
+    border-bottom: 3px dotted dodgerblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  /* GENERAL IMAGE GALLERY for wide screen*/
+  #description {
+    font-size: var(--p-font-size);
+    margin: 0.5rem;
+    padding-bottom: 4vh;
+    text-align: left;
+    border-bottom: 3px dotted yellow;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .image-grid-gallery {
+    margin-top: 0;
+    height: 97vh;
+    display: flex;
+    /*white-space: nowrap;*/
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    z-index: -1;
+  
+    /*display: grid;
+    grid-template-columns: repeat(6, 20fr);
+    grid-column-gap: 5px;*/    
+  }
+
+  
+  .image-grid-gallery .Vcontainer {
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: flex 0.3s;
+    /*flex: 0 0 10vw;*/
+    flex-basis: 20vw;
+    overflow-x: clip;
+    overflow-y: scroll;
+    /*flex-wrap: wrap;*/
+    scroll-snap-type: y mandatory;
+    /* transition: all 1s ease;*/
+    flex-grow: 0;
+  }
+
+  
+  .SerieHeadingContainer {
+    height: 100svh;
+    height: 100vh;
+  }
+
+  .Vcontainer::-webkit-scrollbar{
+    display: none;
+  }
+
+  /*
+  .Vcontainer #imageOnlyContainer img {
+    object-fit: contain;
+  }*/
+  
+  .imageTextContainer {
+    height: 100svh;
+    height: 100vh;
+    width: 100%;
+    /*align-items: center;*/
+  }
+
+  .imageTextContainerInner {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  
+  #imageOnlyContainer {
+    scroll-snap-align: center;
+  }
+
+  .imageOnly {
+    max-width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  /*
+  .imageOnly.changeWidth {
+    max-height: 80vh;
+    object-fit: contain;
+  }*/
+  
+  #textOnlyContainer p {
+    margin-top: 0.2rem;
+    font-size: var(--p-font-size);
+  }
+
+  /* GENERAL IMAGE GALLERY for phone screen*/
+    @media screen and (max-width: 600px) {
+      /*
+      .navigation {
+        scroll-snap-type: inline mandatory;
+        min-width: 100vw;
+        min-width: 100svw;
+        scroll-snap-align: start;
+      }
+      */
+  
+      .SerieHeadingContainer{ width: 100vw; }
+      
+      h3 { font-size: 4rem; }
+      
+      .image-grid-gallery {
+        overflow: clip;
+        overflow-x: auto;
+      }
+  
+      .image-grid-gallery .Vcontainer {
+        min-width: 100vw;      
+      }
+      
+      .Vcontainer {
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: start;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 100%;
+      }
+  
+      .imageTextContainer{
+        align-items: center;
+        padding: 5vw;
+      }
+
+      .imageTextContainerInner {
+        display: flex;
+        align-items: flex-end;
+      }
+  
+      #imageOnlyContainer{
+        height: 100%;
+        width: 50vw;
+      }
+      
+      .imageOnly{
+        float: left;
+      }
+
+      #textOnlyContainer{
+        margin-left: 3vw;
+      }
+    }
+  

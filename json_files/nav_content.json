@@ -1,0 +1,76 @@
+{
+    "nav_sections": 
+    [
+
+    {
+        "nav_section": "1",
+        "nav_title": "painting&drawing",
+        "nav_subs":
+        [
+            {
+                "id": "1",
+                "sub_title": "Lucky Boy",
+                "sub_link": "/painting.html"
+            },
+            {
+                "id": "2",
+                "sub_title": "City Crash",
+                "sub_link": "/painting.html"
+            },
+            {
+                "id": "3",
+                "sub_title": "jes! @IRRE SPACE",
+                "sub_link": "/painting.html"
+            },
+            {
+                "id": "4",
+                "sub_title": "Kitchen Session",
+                "sub_link": "/painting.html"
+            }
+        ]
+    },
+    {
+        "nav_section": "2",
+        "nav_title": "photography",
+        "nav_subs":
+        [
+            {
+                "id": "1",
+                "sub_title": "All Images",
+                "sub_link": "/comingsoon.html"
+            } 
+        ]
+    },
+    {
+        "nav_section": "3",
+        "nav_title": "projects",
+        "nav_subs":
+        [
+            {
+                "id": "1",
+                "sub_title": "disco portraits",
+                "sub_link": "/discoportraits.html"
+            },
+            {
+                "id": "2",
+                "sub_title": "100PVZM",
+                "sub_link": "https://www.irre-bauhaus.de/"
+            }
+            
+        ]
+    },
+    {
+        "nav_section": "4",
+        "nav_title": "GraphicDesign",
+        "nav_subs":
+        [
+            {
+                "id": "1",
+                "sub_title": "All images",
+                "sub_link": "/comingsoon.html"
+            }            
+        ]
+    }
+    
+    ]
+}

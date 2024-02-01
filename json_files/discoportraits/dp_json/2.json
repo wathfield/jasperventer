@@ -1,0 +1,87 @@
+[
+   {
+      "id": "2",
+      "image": "img/image_2.jpg",
+      "name": "disco portrait #2"
+   },
+   {
+      "trait_type": "Background",
+      "value": "golden foil 3%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "pink 6%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "straight 5%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "knee to knee 7%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "nipple covers 2%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "black lace up pants 3%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "long red 5%"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "wide open 2%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "gold glitter 3%"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "laughing 2%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "yellow 3%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "lollipop 3%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "ulla 2%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "tied back 2%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "snake 3%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "madonna birthmark 3%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "black dragon 3%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "no bag 7%"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "gold 3%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "wand 2%"
+   }
+]

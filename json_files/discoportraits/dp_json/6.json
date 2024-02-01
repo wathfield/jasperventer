@@ -1,0 +1,87 @@
+[
+   {
+      "id": "6",
+      "image": "img/image_6.jpg",
+      "name": "disco portrait #6"
+   },
+   {
+      "trait_type": "Background",
+      "value": "aluminum foil 7%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "pink 6%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "upright posture 10%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "knee to knee 7%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "red harnish 3%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "skirt and leggins 4%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "long white 10%"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "bloodshot 5%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "silver glitter 5%"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "botox lips 4%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "red 8%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "cigar 4%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "gelled backwards 7%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "no hat 7%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "earplugs 9%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "septum 6%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "butterfly 5%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "no bag 7%"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "choker 6%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "shades 6%"
+   }
+]

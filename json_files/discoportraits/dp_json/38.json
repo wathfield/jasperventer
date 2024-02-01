@@ -1,0 +1,87 @@
+[
+   {
+      "id": "38",
+      "image": "img/image_38.jpg",
+      "name": "disco portrait #38"
+   },
+   {
+      "trait_type": "Background",
+      "value": "red 20%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "red 13%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "bending backward 19%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "right over left 16%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "leather harnish 11%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "short jeans 16%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "long silver zebra 15"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "bored 15%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "blue 15%"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "smirking 15%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "red 16%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "joint 21%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "curly 11%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "no hat 10%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "silver creole 20%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "natural 14%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "roses 10%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "tote bag 21%"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "sun emblem 11%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "glowsticks 10%"
+   }
+]

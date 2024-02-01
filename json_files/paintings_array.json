@@ -1,0 +1,1427 @@
+{
+    "rows": 
+    [
+
+    {
+        "row": "1",
+        "serie_name": "Lucky Boy",
+        "serie_alias": "luckyboy",
+        "serie_page_link": "painting.html",
+        "serie_description": "Part of a group exhibition 'the autobiographic and the autofictional' at OMA (Other Music Academy, Feb. 2023)",
+        "images":
+        [
+            {
+                "id": "1",
+                "image": "images/painting/serie_01",
+                "Image_title": "urlaub #1",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "2",
+                "image": "images/painting/serie_01",
+                "Image_title": "Frankfurt Airport #2",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "3",
+                "image": "images/painting/serie_01",
+                "Image_title": "untitled #3",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "4",
+                "image": "images/painting/serie_01",
+                "Image_title": "arrival #4",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "5",
+                "image": "images/painting/serie_01",
+                "Image_title": "eco #5",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "6",
+                "image": "images/painting/serie_01",
+                "Image_title": "individualist #6",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            }
+        ]
+    },
+    {
+        "row": "2",
+        "serie_name": "City Crash",
+        "serie_alias": "citycrash",
+        "serie_page_link": "painting.html",
+        "serie_description": "Displayed at Elipamonoke within the city event City Crash 2022 (https://citycrash.de/)",
+        "images":
+        [
+            {
+            "id": "1",
+            "image": "images/painting/serie_02",
+            "Image_title": "Home eye syndrome #1",
+            "attributes": [
+                {
+                    "trait_type": "date",
+                    "value": "summer 2022"
+                },
+                {
+                    "trait_type": "availability",
+                    "value": "available"
+                },
+                {
+                    "trait_type": "medium",
+                    "value": "acrylic on linen"
+                },
+                {
+                    "trait_type": "size",
+                    "value": "60 x 40 cm"
+                }
+                ]
+            },
+            {
+            "id": "2",
+            "image": "images/painting/serie_02",
+            "Image_title": "Home eye syndrome #2",
+            "attributes": [
+                {
+                    "trait_type": "date",
+                    "value": "summer 2022"
+                },
+                {
+                    "trait_type": "availability",
+                    "value": "available"
+                },
+                {
+                    "trait_type": "medium",
+                    "value": "acrylic on linen"
+                },
+                {
+                    "trait_type": "size",
+                    "value": "60 x 40 cm"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "row": "3",
+        "serie_name": "jes! @IRRE SPACE",
+        "serie_alias": "jes!",
+        "serie_page_link": "painting.html",
+        "serie_description": "Group exhibition with Stefan Sünder and Ewald Janz",
+        "images":
+        [
+            {
+            "id": "1",
+            "image": "images/painting/serie_03",
+            "Image_title": "untitled #1",
+            "attributes": [
+                {
+                    "trait_type": "date",
+                    "value": "2021"
+                },
+                {
+                    "trait_type": "availability",
+                    "value": "available"
+                },
+                {
+                    "trait_type": "medium",
+                    "value": "crayon on natural paper"
+                },
+                {
+                    "trait_type": "size",
+                    "value": "DIN A3"
+                }
+                ]
+            },
+            {
+            "id": "2",
+            "image": "images/painting/serie_03",
+            "Image_title": "untitled #2",
+            "attributes": [
+                {
+                    "trait_type": "date",
+                    "value": "2021"
+                },
+                {
+                    "trait_type": "availability",
+                    "value": "available"
+                },
+                {
+                    "trait_type": "medium",
+                    "value": "crayon on natural paper"
+                },
+                {
+                    "trait_type": "size",
+                    "value": "DIN A3"
+                }
+            ]
+            },
+            {
+                "id": "3",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #3",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #4",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite and pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #5",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #6",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "7",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #7",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "8",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #8",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "9",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #9",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "10",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #10",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "11",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #11",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "12",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #12",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "13",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #13",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "14",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #14",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "15",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #15",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "16",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #16",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "17",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #17",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "18",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #18",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite and pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "19",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #19",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "20",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #20",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "21",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #21",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "sharpie and pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "22",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #22",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "23",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #23",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "24",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #24",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "25",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #25",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel and pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "26",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #26",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel and graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "27",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #27",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "28",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #28",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "29",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #29",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "30",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #30",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "spray paint on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            },
+            {
+                "id": "31",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #31",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "32",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #32",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "33",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #33",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite and pencil on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                ]
+            },
+            {
+                "id": "34",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #34",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            },
+            {
+                "id": "35",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #35",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            },
+            {
+                "id": "36",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #36",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            },
+            {
+                "id": "37",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #37",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            },
+            {
+                "id": "38",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #38",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            },
+            {
+                "id": "39",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #39",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            },
+            {
+                "id": "40",
+                "image": "images/painting/serie_03",
+                "Image_title": "untitled #40",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "row": "4",
+        "serie_name": "Kitchen Session",
+        "serie_alias": "kitchenseccion",
+        "serie_page_link": "painting.html",
+        "serie_description": "During the lockdowns in 2021 we did a painting session in the kitchen of our flat. Thank u Hugh for thig great time.",
+        "images":
+        [
+            {
+            "id": "1",
+            "image": "images/painting/serie_04",
+            "Image_title": "untitled #1",
+            "attributes": [
+                {
+                    "trait_type": "date",
+                    "value": "2021"
+                },
+                {
+                    "trait_type": "availability",
+                    "value": "available"
+                },
+                {
+                    "trait_type": "medium",
+                    "value": "oil pastel on paper"
+                },
+                {
+                    "trait_type": "size",
+                    "value": "DIN A5"
+                }
+                ]
+            },
+            {
+                "id": "2",
+                "image": "images/painting/serie_04",
+                "Image_title": "untitled #2",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "3",
+                "image": "images/painting/serie_04",
+                "Image_title": "untitled #3",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on black cardboard"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A4"
+                    }
+                    ]
+            },
+            {
+                "id": "4",
+                "image": "images/painting/serie_04",
+                "Image_title": "Image Title #4",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite and varnish on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "5",
+                "image": "images/painting/serie_04",
+                "Image_title": "Image Title #5",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite and varnish on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "6",
+                "image": "images/painting/serie_04",
+                "Image_title": "Image Title #1",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "7",
+                "image": "images/painting/serie_04",
+                "Image_title": "Image Title #7",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel and graphite on cardboard"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "8",
+                "image": "images/painting/serie_04",
+                "Image_title": "Image Title #8",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "9",
+                "image": "images/painting/serie_04",
+                "Image_title": "Image Title #9",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "2021"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "oil pastel on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            }
+                
+        ]
+    },
+    {
+        "row": "5",
+        "serie_name": "empt",
+        "serie_alias": "empty",
+        "serie_page_link": "painting.html",
+        "serie_description": "description",
+        "images":
+        [
+            {
+            "id": "1",
+            "image": "images/painting/serie_04",
+            "Image_title": "untitled #1",
+            "attributes": [
+                {
+                    "trait_type": "date",
+                    "value": "2021"
+                },
+                {
+                    "trait_type": "availability",
+                    "value": "available"
+                },
+                {
+                    "trait_type": "medium",
+                    "value": "oil pastel on paper"
+                },
+                {
+                    "trait_type": "size",
+                    "value": "DIN A5"
+                }
+                ]
+            }
+                
+        ]
+    },
+    {
+        "row": "6",
+        "serie_name": "empt",
+        "serie_alias": "empty",
+        "serie_page_link": "painting.html",
+        "serie_description": "description",
+        "images":
+        [
+            {
+            "id": "1",
+            "image": "images/painting/serie_04",
+            "Image_title": "untitled #1",
+            "attributes": [
+                {
+                    "trait_type": "date",
+                    "value": "2021"
+                },
+                {
+                    "trait_type": "availability",
+                    "value": "available"
+                },
+                {
+                    "trait_type": "medium",
+                    "value": "oil pastel on paper"
+                },
+                {
+                    "trait_type": "size",
+                    "value": "DIN A5"
+                }
+                ]
+            }
+                
+        ]
+    }
+    ]
+}

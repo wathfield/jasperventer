@@ -1,0 +1,87 @@
+[
+   {
+      "id": "50",
+      "image": "img/image_50.jpg",
+      "name": "disco portrait #50"
+   },
+   {
+      "trait_type": "Background",
+      "value": "red 20%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "purple 16%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "bending backward 19%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "manspreading 15%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "croptop 12%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "ripped jeans 17%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "long black 18%"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "looking up 18%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "white 16"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "smiling 16%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "green 19%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "cigarette 25%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "mullet 13%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "blue basecap 17%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "silver creole 20%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "eyelash extension 16%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "eagle 11%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "tote bag 21%"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "plastic chains 12%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "cuba libre 10%"
+   }
+]

@@ -1,0 +1,71 @@
+{
+    "nav_sections": {
+        "work": [
+            {
+                "nav_section": "1",
+                "nav_title": "painting&drawing",
+                "nav_link": "painting.html",
+                "nav_subs": [
+                    {
+                        "id": "1",
+                        "sub_title": "Lucky Boy",
+                        "sub_link": "painting.html"
+                    },
+                    {
+                        "id": "2",
+                        "sub_title": "City Crash",
+                        "sub_link": "painting.html"
+                    },
+                    {
+                        "id": "3",
+                        "sub_title": "jes! @IRRE SPACE",
+                        "sub_link": "painting.html"
+                    },
+                    {
+                        "id": "4",
+                        "sub_title": "Kitchen Session",
+                        "sub_link": "painting.html"
+                    }
+                ]
+            },
+            {
+                "nav_section": "2",
+                "nav_title": "photography",
+                "nav_link": "photography.html",
+                "nav_subs": [
+                    {
+                        "id": "1",
+                        "sub_title": "All Images",
+                        "sub_link": "comingsoon.html"
+                    }
+                ]
+            },
+            {
+                "nav_section": "4",
+                "nav_title": "GraphicDesign",
+                "nav_link": "comingsoon.html",
+                "nav_subs": [
+                    {
+                        "id": "1",
+                        "sub_title": "All images",
+                        "sub_link": "comingsoon.html"
+                    }
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "nav_section": "1",
+                "nav_title": "disco portraits",
+                "nav_link": "discoportraits.html",
+                "nav_subs": []
+            },
+            {
+                "nav_section": "2",
+                "nav_title": "100PVZM",
+                "nav_link": "https://www.irre-bauhaus.de/",
+                "nav_subs": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+/* TEXT: biography, work, exhibitions.. */
+
+.categorie-title { padding-bottom: 2rem; }
+
+.categories-table { padding: 10px; }
+
+.categorie { padding-bottom: 10vh; }
+
+.table_element { padding-bottom: 5vh; }
+
+.table_element, .onlycontext { height: 40vh; }
+
+.discipline_text{ display: block; }
+
+.table-element, .text_ele {
+  width: 40vw;
+  text-align: left;
+  font-size: 1rem;
+}
+  
+#poster {
+  float: right;
+  height: 20vw;
+}
+
+/* GENERAL NAV LAYOUT for phone screen*/
+@media screen and (max-width: 600px) {
+    /*for biograph images*/
+    #poster { height: 10px; }
+  }
+  

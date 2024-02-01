@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style_general.css">
+    <link rel="stylesheet" href="style_biography.css">
+    <title>biography</title>
+</head>
+<body>
+
+    <header id="myHeader">
+        <section class="button_container" id="mainNav">
+            <button class="nav_btn" id="nav_btn_id">
+                <img src="/images/SVG/loose_head-10.png" id="nav_btn_img">
+            </button>
+        </section>
+        <section class="nav container" id="NavContainer0">
+                <div class="navigation">
+                    <nav>
+                        <div class="sub-menu" id="MainMenu">
+                            <ul class="nav-list">
+                                <li class="inactive" id="home">
+                                    <a href="index.html">home</a>
+                                </li>
+                                <li class="inactive" id="work">
+                                    <a href="work.html">work</a>
+                                </li>
+                                <li class="inactive" id="projects">
+                                    <a href="comingsoon.html">projects</a>
+                                </li>
+                                <li class="active" id="biography">
+                                    <a href="biography.html" aria-current="page">biography</a>
+                                </li>
+                                <li class="inactive" id="contact">
+                                    <a href="contact.html">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+        </section>
+    
+        <section class="nav container" id="NavContainer1">
+            <div id="navSubTitlesShowcase">
+                <nav>
+                    <div class="sub-menu" id="SubMenu"></div>
+                </nav>
+            </div>
+        </section>
+
+        <section class="nav container" id="NavContainer2">
+            <nav>
+                <div class="sub-menu" id="SubSubMenu"></div>
+            </nav>
+        </section>
+    </header>
+
+    <main id="main" style="transition: 1s ease-in-out;">
+        <section id="bio" alt="exhibitions" class="bioSection container" style="display: inline-block;">
+
+            <div class="categories-table">
+                <div class="categorie" >
+                    <h2 class="categorie-title">Biography</h2>
+                    <div draggable="false" class="table_element" href="/biography.html">
+                        <img src="" id="poster">
+                        <p class="text_ele">(fetch text from external file) <br><br>born on 15 March 1999 in Schwäbisch Gmünd, Germany
+                            lives and works in Weimar</p>
+
+                    </div>
+                </div>
+
+                <div class="categorie" >
+                    <h2 id="exhibitions" class="categorie-title">Exhibitions (group)</h2>
+                    <div draggable="false" class="table_element" href="/biography.html">
+                        <img src="images\poster\oxygen_01.jpg" id="poster">
+                        <div class="onlycontext">
+                            <span class="exhibition_title">"City Crash"</span>
+                            <p class="text_ele">Elipamonoke</p>
+                            <p class="text_ele">Leipzig</p>
+                            <p class="text_ele">2021</p>
+                        </div>
+                    </div>
+                    <div draggable="false" class="table_element" href="/biography.html">
+                        <img src="images/poster/jes_irre_space_01.jpg" id="poster">
+                        <span class="exhibition_title">"jes!"</span>
+                        <p class="text_ele">IRRE SPACE</p>
+                        <p class="text_ele">Bauhaus-Universität Weimar</p>
+                        <p class="text_ele">2021</p>
+                    </div>
+                    <div draggable="false" class="table_element" href="/biography.html">
+                        <img src="images/poster/jes_irre_space_01.jpg" id="poster">
+                        <span class="exhibition_title">"jes!"</span>
+                        <p class="text_ele">DER MIXER</p>
+                        <p class="text_ele">Frankfurt</p>
+                        <p class="text_ele">2022</p>
+                    </div>
+                </div>
+
+                <div class="categorie">
+                    <h2 id="education" class="categorie-title">CV</h2>
+                    <div draggable="false" class="table_element" href="/biography.html">
+                        <h4 class="exhibition_title">Education</h4>
+                        <p class="text_ele">1999 geboren in Schwäbisch Gmünd</p>
+                        <p class="text_ele">2018 Praktikum, Schipper Company, Hamburg</p>
+                        <p class="text_ele">2024 Studium (BA) „Visuelle Kommunikation“, Bauhaus-Universität Weimar</p>
+                    </div>
+
+                    <div draggable="false" class="table_element" href="/biography.html">
+                        <h4 class="exhibition_title">Prices & Awards</h4>
+                        <p class="text_ele">2022<br>Nominierung „Deutscher Multimediapreis mb21“,<br>Museum of the technological history Dresden</p>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+    </footer>
+
+    <script type="text/javascript" src="script_general.js" defer></script>
+</body>
+</html>

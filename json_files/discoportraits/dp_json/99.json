@@ -1,0 +1,87 @@
+[
+   {
+      "id": "99",
+      "image": "img/image_99.jpg",
+      "name": "disco portrait #99"
+   },
+   {
+      "trait_type": "Background",
+      "value": "white 22%"
+   },
+   {
+      "trait_type": "Colored light",
+      "value": "natural light 25%"
+   },
+   {
+      "trait_type": "Posture",
+      "value": "bending to the left 27%"
+   },
+   {
+      "trait_type": "Legs",
+      "value": "parallel 20%"
+   },
+   {
+      "trait_type": "Top",
+      "value": "mesh shirt 14%"
+   },
+   {
+      "trait_type": "Pants",
+      "value": "joggers 20%"
+   },
+   {
+      "trait_type": "Nails",
+      "value": "short natural 21%"
+   },
+   {
+      "trait_type": "Eyes",
+      "value": "angry 21%"
+   },
+   {
+      "trait_type": "Eye-shadow",
+      "value": "natural 19%"
+   },
+   {
+      "trait_type": "Mouth",
+      "value": "cool mouth 19%"
+   },
+   {
+      "trait_type": "Lipstick",
+      "value": "dry 22%"
+   },
+   {
+      "trait_type": "Item in mouth",
+      "value": "no item 28%"
+   },
+   {
+      "trait_type": "Hair",
+      "value": "shaved off 32%"
+   },
+   {
+      "trait_type": "Hat",
+      "value": "black basecap 20%"
+   },
+   {
+      "trait_type": "Earring",
+      "value": "no earring 24%"
+   },
+   {
+      "trait_type": "Piercing",
+      "value": "anti eyebrow 22%"
+   },
+   {
+      "trait_type": "Tattoo",
+      "value": "natural 17%"
+   },
+   {
+      "trait_type": "Bag",
+      "value": "fanny pack 26%"
+   },
+   {
+      "trait_type": "Chain",
+      "value": "thin silver 16%"
+   },
+   {
+      "trait_type": "Offhand-item",
+      "value": "beer 13%"
+   }
+]

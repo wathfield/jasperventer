@@ -1,0 +1,296 @@
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  * { margin:0; padding:0; }
+  
+  body {
+    font-family: "Arial";
+    /*font-family: Arial, sans-serif;*/
+    display: block;
+    }
+
+    /* Only load other elements if user has enough data*/
+    @media (
+      prefers-reduced-data:
+      no-preference
+    ) {
+
+      body {
+        font-family: "Roboto";
+      }
+      @font-face {
+        font-family: "Roboto";
+        src: url();
+      }
+    }
+  
+  /*
+  body::-webkit-scrollbar{
+    display: none;
+  }*/
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement
+  (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + #main {
+    padding-top: 118px;
+  }
+
+  header {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex; /* old versions of Chrome/Safari/Opera */
+    display: -ms-flexbox; /* IE10 */
+
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap; /* old versions of Chrome/Safari/Opera */
+    width: 100svw;
+    width: 100vw;
+    min-width: fit-content;
+  }
+
+  header.header_fix {
+    position: fixed;
+  }
+
+  /* TEXT */
+  h1, h2, h3, h4 {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  
+  h2 {
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    letter-spacing: -1px;
+  }
+  
+  h3 {
+    /*scroll-snap-align: start;*/
+    letter-spacing: -2px;
+    padding-bottom: 4vh;
+    display: block;
+    font-size: 2.5rem;
+    border-bottom: 3px dotted dodgerblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+/* CONTAINER */
+
+.button_container {
+  z-index: 1;
+  position: relative;
+  width: fit-content;
+  background-color: white;
+  border-bottom: 3px dotted rgb(199, 60, 60);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  min-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px dotted dodgerblue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.container.nav_translateY {
+  position: relative;
+  transform: translateY(-100%);
+  background-color: rgb(211, 73, 73);
+  width: 100%;
+  margin-right: auto;
+  border-bottom: 3px dotted dodgerblue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+/* GENERAL NAV LAYOUT for phone screen*/
+
+
+/*
+@media (min-width: 640px) {
+.container {
+  max-width: 240px;
+}
+}*/
+
+/* HOME*/
+ button {
+  background-color: transparent;
+  border: none;
+}
+
+.nav_btn {
+  z-index: 50;
+}
+
+#nav_btn_img {
+  transition: .4s ease-in-out;
+  transform: rotate(0deg);
+  max-height: 4rem;
+  padding: 1.5rem;
+}
+
+#nav_btn_img.btn_rotate{
+  transition: .4s ease-in-out;
+  transform: rotate(180deg);
+  max-height: 4rem;
+  padding: 1.5rem;
+}
+
+#NavContainer0, #NavContainer1, #NavContainer2 {
+  transition: .3s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.nav-list{
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: fit-content;
+  z-index: 1;
+}
+
+
+
+.nav-list li.inactive{
+  -webkit-filter: grayscale(0%) blur(1px);
+  filter: grayscale(0%) blur(1px);
+}
+
+
+.nav-list li.inactive.noHoverBlur{
+  -webkit-filter: grayscale(0%) blur(0px);
+  filter: grayscale(0%) blur(0px);
+}
+  
+.nav-list li.active{
+  --activeColor: rgb(255, 30, 188) ;
+  /*background:var(--activeColor);*/
+  text-shadow:1px 1px 5px #ff0000, 1px 1px 5px var(--activeColor);
+}
+
+.nav-list li.active a{
+  color: white;
+}
+
+li {
+    position: relative;
+    /*margin-right: 20px;*/
+    cursor: pointer;
+}
+
+a { text-decoration: none;}
+
+.sub-menu {
+    display: block;
+    /*position: fixed;*/
+    /*padding: 10px;*/
+    width: fit-content;
+    z-index: 1;
+}
+
+li:hover + .sub-menu {
+    display: block;
+}
+
+.sub-menu a {
+    display: block;
+    color: #4921fa;
+}
+
+
+
+/* FOOTER */
+  
+  #floatingElement, #footer_li {
+    position: relative;
+    animation: floatAnimation 5s linear infinite alternate;
+  }
+  
+   /* Define the animation keyframes */
+   @keyframes floatAnimation
+   {
+    from {
+      left: 0;
+    }
+    to {
+      left: calc(100% - 50px); /* 100% minus the width of the element */
+    }
+  }
+  
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  transition: .5s ease-in-out;
+  background: rgb(255, 255, 255);
+  /*justify-content:center;
+  text-align: center;*/
+}
+
+#footer_li {
+  display: flex;
+}
+  
+.footer_text {
+    transition: .2s ease-in-out;
+    color:rgb(0, 0, 0);
+    font-size: 0.5rem;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer_text:hover { color:#00ff22; }
+
+
+/* TEXT: biography, exhibition, CV */
+
+.categorie-title { padding-bottom: 2rem; }
+
+.categories-table { padding: 10px; }
+
+.categorie { padding-bottom: 10vh; }
+
+.table_element { padding-bottom: 5vh; }
+
+.table_element, .onlycontext { height: 40vh; }
+
+.discipline_text{ display: block; }
+
+.table-element, .text_ele {
+  width: 40vw;
+  text-align: left;
+  font-size: 1rem;
+}
+  
+#poster {
+  float: right;
+  height: 20vw;
+}

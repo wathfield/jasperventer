@@ -1,0 +1,62 @@
+{
+    "rows": 
+    [
+
+    {
+        "row": "1",
+        "serie_name": "Lucky Boy",
+        "serie_description": "Part of a group exhibition 'the autobiographic and the autofictional' at OMA (Other Music Academy, Feb. 2023)",
+        "images":
+        [
+            {
+                "id": "1",
+                "image": "images/painting/serie_01",
+                "Image_title": "urlaub #1",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            },
+            {
+                "id": "2",
+                "image": "images/poster/serie_01",
+                "Image_title": "Frankfurt Airport #2",
+                "attributes": [
+                    {
+                        "trait_type": "date",
+                        "value": "December-January 2022/23"
+                    },
+                    {
+                        "trait_type": "availability",
+                        "value": "available"
+                    },
+                    {
+                        "trait_type": "medium",
+                        "value": "graphite on paper"
+                    },
+                    {
+                        "trait_type": "size",
+                        "value": "DIN A5"
+                    }
+                    ]
+            }
+            
+        ]
+    }
+    
+    ]
+}
