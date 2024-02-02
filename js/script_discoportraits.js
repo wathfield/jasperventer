@@ -44,16 +44,14 @@ function createImageGallery(jsonData) {
 
         }
         const imageElement = document.createElement('img');
-            imageElement.src = `images/photography/disco_portraits/image_${image.edition}.jpg`;
+            imageElement.src = `/images/photography/disco_portraits/image_${image.edition}.jpg`;
             imageElement.alt = `portrait`;
             imageElement.id = `${image.edition}`;
             imageElement.classList.add('lazy-loading');
             imageElement.classList.add('imageOnly');
-            //imageElement.setAttribute("onclick", "enlargeImg()");
             imageContainer.appendChild(imageElement);
 
-    // closes div for every Vcontainer
-    GridContainer.appendChild(imageContainer);
+        GridContainer.appendChild(imageContainer);
     }
 }
 
@@ -64,30 +62,30 @@ function showImage(image) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+     // lazy-loading
+     const lazyClass = 'lazy-loading';
+     const lazyImages = document.querySelectorAll(`.${lazyClass}`);
+ 
+     const lazyObserver = new IntersectionObserver((elements) => {
+         elements.forEach((element) => {
+             if (element.isIntersecting) {
+                 const image = element.target;
+                 showImage(image);
+                 lazyObserver.unobserve(image)
+             }
+         })
+     })
+ 
+     lazyImages.forEach(image => {
+         lazyObserver.observe(image);
+     })
+
     // Load external JSON file
-    fetch('json_files/discoportraits/dp_json_meta/_metadata.json')
+    fetch(`/json_files/discoportraits/dp_json_meta/_metadata.json`)
     .then(function (response) {
             return response.json();
     })
     .then(data => createImageGallery(data))
     .catch(error => console.error('Error loading JSON:', error));
-
-    // lazy-loading
-    const lazyClass = 'lazy-loading';
-    const lazyImages = document.querySelectorAll(`.${lazyClass}`);
-
-    const lazyObserver = new IntersectionObserver((elements) => {
-        elements.forEach((element) => {
-            if (element.isIntersecting) {
-                const image = element.target;
-                showImage(image);
-                lazyObserver.unobserve(image)
-            }
-        })
-    })
-
-    lazyImages.forEach(image => {
-        lazyObserver.observe(image);
-    })
   
   });

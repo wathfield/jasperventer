@@ -11,28 +11,28 @@ function fetchJson(jsonFileName, jsonFunction) {
 }
 
 
-// lazy-loading
-const lazyClass = 'lazy-loading';
-const lazyImages = document.querySelectorAll(`.${lazyClass}`);
-
-const lazyObserver = new IntersectionObserver((elements) => {
-    elements.forEach((element) => {
-        if (element.isIntersecting) {
-            const image = element.target;
-            showImage(image);
-            lazyObserver.unobserve(image)
-        }
-    })
-})
-
-lazyImages.forEach(image => {
-    lazyObserver.observe(image);
-})
-
-function showImage(image) {
-    image.src = image.dataset.src;
-    image.classList.remove(lazyClass) 
-}
+//// lazy-loading
+//const lazyClass = 'lazy-loading';
+//const lazyImages = document.querySelectorAll(`.${lazyClass}`);
+//
+//const lazyObserver = new IntersectionObserver((elements) => {
+//    elements.forEach((element) => {
+//        if (element.isIntersecting) {
+//            const image = element.target;
+//            showImage(image);
+//            lazyObserver.unobserve(image)
+//        }
+//    })
+//})
+//
+//lazyImages.forEach(image => {
+//    lazyObserver.observe(image);
+//})
+//
+//function showImage(image) {
+//    image.src = image.dataset.src;
+//    image.classList.remove(lazyClass) 
+//}
 
 // IMAGE GALLERY PAINTING
 function createImageGallery(jsonData) {
@@ -160,9 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load external JSON file to generate image gallery
     fetchJson("paintings_array", createImageGallery);  
 
-    // Make each row container expandable for bigger view
+    // Make each row container expandable for better preview
     const imageGallery = document.getElementById("image-gallery");
-    // Add a click event listener to the image-gallery container
     imageGallery.addEventListener('click', function (event) {
         //console.log(`You clicked on item: ${event.target.innerHTML}`);
         // Check if the clicked element has the class "Vcontainer"
@@ -173,8 +172,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // look for the the closest ancestor which is a div and has a parent ".image-grid-gallery"
         const currentContainer = clickedVcontainer.closest(".image-grid-gallery > div");
-
-        const currentContainerName = currentContainer.id;
         
         //const childImages = document.querySelectorAll(`#${currentContainerName} img`);
         //const elements = document.querySelectorAll('#SubMenu > .nav-list *');
