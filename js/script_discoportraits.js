@@ -9,8 +9,6 @@ function hideDescription() {
 // IMAGE GALLERY general
 function createImageGallery(jsonData) {
     const GridContainer = document.getElementById('discoportraits_container');
-    //const galleryContainer = document.getElementsByClassName('.horizontal Hcontainer');
-
     for (const image of jsonData) {
         const imageContainer = document.createElement('div');
         imageContainer.classList.add('image_container');
@@ -59,10 +57,37 @@ function createImageGallery(jsonData) {
     }
 }
 
-// Load external JSON file
-fetch('json_files/discoportraits/dp_json_meta/_metadata.json')
-.then(function (response) {
-        return response.json();
-})
-.then(data => createImageGallery(data))
-.catch(error => console.error('Error loading JSON:', error));
+function showImage(image) {
+    image.src = image.dataset.src;
+    image.classList.remove(lazyClass) 
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Load external JSON file
+    fetch('json_files/discoportraits/dp_json_meta/_metadata.json')
+    .then(function (response) {
+            return response.json();
+    })
+    .then(data => createImageGallery(data))
+    .catch(error => console.error('Error loading JSON:', error));
+
+    // lazy-loading
+    const lazyClass = 'lazy-loading';
+    const lazyImages = document.querySelectorAll(`.${lazyClass}`);
+
+    const lazyObserver = new IntersectionObserver((elements) => {
+        elements.forEach((element) => {
+            if (element.isIntersecting) {
+                const image = element.target;
+                showImage(image);
+                lazyObserver.unobserve(image)
+            }
+        })
+    })
+
+    lazyImages.forEach(image => {
+        lazyObserver.observe(image);
+    })
+  
+  });
