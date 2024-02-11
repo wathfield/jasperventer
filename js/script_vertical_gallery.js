@@ -187,7 +187,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         toggleColumn(currentContainer);
-        console.log(`Toggled Row: ${currentContainer.id}`);
+        console.log(
+            `%c Toggled Row: ${currentContainer.id}`,
+            `font-size: 18vw; color: red;`);
 
         // Change the width of the clicked Vcontainer (example: increase by 50px)
         //clickedVcontainer.style.width = (parseInt(clickedVcontainer.style.width) + 50) + 'px';
