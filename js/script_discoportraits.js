@@ -46,7 +46,7 @@ function createImageGallery(jsonData) {
 
         }
         const imageElement = document.createElement('img');
-            imageElement.src = `images/photography/disco_portraits/image_${image.edition}.jpg`;
+            imageElement.src = `/images/photography/disco_portraits/image_${image.edition}.jpg`;
             imageElement.alt = `portrait`;
             imageElement.id = `${image.edition}`;
             //imageElement.classList.add('lazy-loading');
@@ -98,7 +98,7 @@ function showImage(image) {
 document.addEventListener('DOMContentLoaded', () => {
     var responseClone; // 1
     // Load external JSON file
-    fetch(`/json_files/discoportraits/dp_json_meta/_metadata.json`)
+    fetch(`json_files/discoportraits/dp_json_meta/_metadata.json`)
     .then(function (response) {
         responseClone = response.clone(); // 2
         return response.json();
