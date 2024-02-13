@@ -8,6 +8,8 @@ function hideDescription() {
 
 // IMAGE GALLERY general
 function createImageGallery(jsonData) {
+
+
     const GridContainer = document.getElementById('discoportraits_container');
     for (const image of jsonData) {
         const imageContainer = document.createElement('div');
@@ -61,13 +63,54 @@ function showImage(image) {
 }
 
 
+//document.addEventListener('DOMContentLoaded', () => {
+//    // Load external JSON file
+//    fetch(`json_files/discoportraits/dp_json_meta/_metadata.json`)
+//    .then(function (response) {
+//            return response.json();
+//    })
+//    .then(data => createImageGallery(data))
+//    .catch(error => console.error('Error loading JSON:', error));
+//
+//
+//     // lazy-loading
+//     const lazyClass = 'lazy-loading';
+//     const lazyImages = document.querySelectorAll(`.${lazyClass}`);
+// 
+//     const lazyObserver = new IntersectionObserver((elements) => {
+//         elements.forEach((element) => {
+//             if (element.isIntersecting) {
+//                 const image = element.target;
+//                 showImage(image);
+//                 lazyObserver.unobserve(image)
+//             }
+//         })
+//     })
+// 
+//     lazyImages.forEach(image => {
+//         lazyObserver.observe(image);
+//     })
+//  
+//  });
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
+    var responseClone; // 1
     // Load external JSON file
-    fetch(`json_files/discoportraits/dp_json_meta/_metadata.json`)
+    fetch(`/json_files/discoportraits/dp_json_meta/_metadata.json`)
     .then(function (response) {
-            return response.json();
+        responseClone = response.clone(); // 2
+        return response.json();
     })
-    .then(data => createImageGallery(data))
+    .then(data => createImageGallery(data),
+    function (rejectionReason) { // 3
+        console.log('Error parsing JSON from response:', rejectionReason, responseClone); // 4
+        responseClone.text() // 5
+        .then(function (bodyText) {
+            console.log('Received the following instead of valid JSON:', bodyText); // 6
+        });
+    })
     .catch(error => console.error('Error loading JSON:', error));
 
 
@@ -90,3 +133,4 @@ document.addEventListener('DOMContentLoaded', () => {
      })
   
   });
+
