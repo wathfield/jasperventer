@@ -50,6 +50,7 @@ function createImageGallery(jsonData) {
             imageElement.alt = `portrait`;
             imageElement.id = `${image.edition}`;
             //imageElement.classList.add('lazy-loading');
+            imageElement.loading = 'lazy';
             imageElement.classList.add('imageOnly');
             imageContainer.appendChild(imageElement);
 
@@ -71,7 +72,6 @@ function showImage(image) {
 //    })
 //    .then(data => createImageGallery(data))
 //    .catch(error => console.error('Error loading JSON:', error));
-//
 //
 //     // lazy-loading
 //     const lazyClass = 'lazy-loading';

@@ -77,6 +77,7 @@ function createImageGallery(jsonData) {
             imageElement.src = `${image?.image}/image${image?.id}.jpg`;
             imageElement.alt = `${image?.Image_title}`;
             imageElement.id = `${image?.id}`;
+            imageElement.loading = 'lazy';
             imageElement.classList.add('imageOnly')
             imagesOnlyContainer.appendChild(imageElement);
             //imageElement.setAttribute("onclick", "enlargeImg()");
