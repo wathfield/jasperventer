@@ -93,7 +93,7 @@ function showImage(image) {
 document.addEventListener('DOMContentLoaded', () => {
     var responseClone; // 1
     // Load external JSON file
-    fetch(`json_files/discoportraits/dp_json_meta/_metadata.json`)
+    fetch(`./json_files/discoportraits/dp_json_meta/_metadata.json`)
     .then(function (response) {
         responseClone = response.clone(); // 2
         return response.json();
