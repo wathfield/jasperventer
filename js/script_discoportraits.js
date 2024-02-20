@@ -9,7 +9,6 @@ function hideDescription() {
 // IMAGE GALLERY general
 function createImageGallery(jsonData) {
 
-
     const GridContainer = document.getElementById('discoportraits_container');
     for (const image of jsonData) {
         const imageContainer = document.createElement('div');
@@ -27,7 +26,6 @@ function createImageGallery(jsonData) {
         imageTitle.textContent = `${image.name}`;
         title.appendChild(imageTitle);
         middle.appendChild(title);
-
         
         for (const attribute of image.attributes) {
             const ListElement = document.createElement('li')
@@ -43,10 +41,9 @@ function createImageGallery(jsonData) {
                 valueElement.id = `value`;
                 valueElement.textContent = `${attribute.value}`;
                 ListElement.appendChild(valueElement);
-
         }
         const imageElement = document.createElement('img');
-            imageElement.src = `/images/photography/disco_portraits/image_${image.edition}.jpg`;
+            imageElement.src = `./images/projects/disco_portraits/default_xxx_x_xxx/image_${image.edition}.jpg`;
             imageElement.alt = `portrait`;
             imageElement.id = `${image.edition}`;
             //imageElement.classList.add('lazy-loading');
@@ -93,8 +90,6 @@ function showImage(image) {
 //  
 //  });
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
     var responseClone; // 1
     // Load external JSON file
@@ -133,4 +128,3 @@ document.addEventListener('DOMContentLoaded', () => {
      })
   
   });
-
