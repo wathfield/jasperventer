@@ -1,3 +1,11 @@
+// Measure performance 1
+//performance.mark("calc-start"); // starting point
+
+// imports
+import {
+    fetchJson
+} from '/js/main_functions.js';
+
 // description: hide & show
 function showDescription() {
     document.getElementById('invisible').style.display = "block";
@@ -91,22 +99,27 @@ function showImage(image) {
 //  });
 
 document.addEventListener('DOMContentLoaded', () => {
-    var responseClone; // 1
-    // Load external JSON file
-    fetch(`json_files/discoportraits/dp_json_meta/_metadata.json`)
-    .then(function (response) {
-        responseClone = response.clone(); // 2
-        return response.json();
-    })
-    .then(data => createImageGallery(data),
-    function (rejectionReason) { // 3
-        console.log('Error parsing JSON from response:', rejectionReason, responseClone); // 4
-        responseClone.text() // 5
-        .then(function (bodyText) {
-            console.log('Received the following instead of valid JSON:', bodyText); // 6
-        });
-    })
-    .catch(error => console.error('Error loading JSON:', error));
+    // Load external JSON file to generate image gallery
+    fetchJson("discoportraits/dp_json_meta/_metadata", createImageGallery);
+
+
+
+    //var responseClone; // 1
+    //// Load external JSON file
+    //fetch(`json_files/discoportraits/dp_json_meta/_metadata.json`)
+    //.then(function (response) {
+    //    responseClone = response.clone(); // 2
+    //    return response.json();
+    //})
+    //.then(data => createImageGallery(data),
+    //function (rejectionReason) { // 3
+    //    console.log('Error parsing JSON from response:', rejectionReason, responseClone); // 4
+    //    responseClone.text() // 5
+    //    .then(function (bodyText) {
+    //        console.log('Received the following instead of valid JSON:', bodyText); // 6
+    //    });
+    //})
+    //.catch(error => console.error('Error loading JSON:', error));
 
 
      // lazy-loading
@@ -128,3 +141,10 @@ document.addEventListener('DOMContentLoaded', () => {
      })
   
   });
+
+
+// Measure performance 2
+//calc();
+//performance.mark("calc-end"); // starting point
+//const { duration } = performance.measure("calc", "calc-start", "calc-end");
+//console.log(duration)

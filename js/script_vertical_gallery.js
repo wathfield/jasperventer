@@ -1,14 +1,6 @@
-// function to fetch and loads external json files. Just type in the path and the function
-function fetchJson(jsonFileName, jsonFunction) {
-    // Load external JSON file
-    fetch(`json_files/${jsonFileName}.json`)
-    .then(function (response) {
-            return response.json();
-    })
-    .then(data => jsonFunction(data))
-    .catch(error => console.error('Error loading JSON:', error));
-    //createImageGallery(data)
-}
+import {
+    fetchJson
+} from '/js/main_functions.js';
 
 
 //// lazy-loading
@@ -112,8 +104,8 @@ function createImageGallery(jsonData) {
 //  });
 
 // MAKE IMAGE BIGGER ON CLICK
-img = document.getElementById("images");
-img = document.querySelector("#images");
+//img = document.getElementById("images");
+//img = document.querySelector("#images");
 
 // Function to increase image size
 function enlargeImg() {
