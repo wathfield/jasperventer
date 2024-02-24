@@ -100,7 +100,7 @@ function showImage(image) {
 
 document.addEventListener('DOMContentLoaded', () => {
     // Load external JSON file to generate image gallery
-    fetchJson("discoportraits/dp_json_meta/_metadata", createImageGallery);
+    fetchJson("discoportraits/dp_json_meta/metadata", createImageGallery);
 
 
 
