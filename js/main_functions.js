@@ -1,7 +1,7 @@
 // function to fetch and loads external json files. Just type in the path and the function
 export function fetchJson(jsonFileName, jsonFunction) {
     // Load external JSON file
-    fetch(`json_files/${jsonFileName}.json`)
+    fetch(`./json_files/${jsonFileName}.json`)
     .then(function (response) {
             return response.json();
     })

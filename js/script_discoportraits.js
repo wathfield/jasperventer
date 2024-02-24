@@ -4,7 +4,7 @@
 // imports
 import {
     fetchJson
-} from '/js/main_functions.js';
+} from '../js/main_functions.js';
 
 // description: hide & show
 function showDescription() {

@@ -1,6 +1,6 @@
 import {
     fetchJson
-} from '/js/main_functions.js';
+} from '../js/main_functions.js';
 
 
 //// lazy-loading
